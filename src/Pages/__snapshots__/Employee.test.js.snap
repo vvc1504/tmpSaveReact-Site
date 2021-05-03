@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`employee snapshort test 1`] = `
+<div
+  className="employee-page"
+>
+  <h1>
+    Employee
+  </h1>
+</div>
+`;

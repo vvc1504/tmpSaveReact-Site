@@ -1,0 +1,103 @@
+
+  .addproduct-form{
+    border-radius: 5px;
+    padding: 40px;
+    background: #c0bbbb;
+    min-height: 100vh;
+    width: 100%
+  }
+  
+  .form{
+    margin-top: 30px;
+    margin-left: 100px;
+    border: red solid 2px;
+    padding: 150px 150px 100px 150px;
+    background: #b9b4b4;
+    width: 60%;
+    box-shadow: 10px 10px 10px 2px rgb(0 0 0 / 50%),
+    0px 1px 1px 1px rgb(0 0 0 / 14%),
+     0px 2px 3px 0px rgb(0 0 0 / 12%);
+  }
+  
+  
+  .prds-field {
+    background: #ccc7c7;
+    width: 210px; 
+    align-items: center;
+    padding: 8px 0px 8px 10px;
+    border:100mm;
+   margin-left: 20px;
+   margin-top: 100px;
+   border: none;
+   outline: none;
+   box-shadow: -10px -10px -10px -2px rgb(0 0 0 / 50%) ,
+                0px -1px -1px -1px ,
+    
+     
+  }
+  .mrp-field{
+    background: #ccc7c7;
+    
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px 8px 14px;
+   margin-left: 20px;
+   margin-top: 10px;
+   border: none;
+   outline: none;
+  }
+  .ap-fieldset{
+    background: #ccc7c7;
+    padding: 19px 0px 010px 5px ;
+    border-width: 2.5px;
+    border-color: rgb(170, 160, 160);
+    width: 220px;
+    margin-top: -46px;
+    margin-left: 16px;
+    border-radius: 4px;
+
+  }
+  .ap-legend{
+   color: rgb(17, 17, 16);
+  /* position:static; */
+  margin: 20px;
+  font-size: 11px;
+
+  }
+
+.ap-submit-btn{
+      background: rgb(138, 178, 209);
+      margin: 50px;
+      /* margin-top: 10px; */
+     padding: 10px 50px;
+     cursor: pointer;
+     text-decoration-style: solid;
+     border-radius: 8px;
+     
+  }
+.ap-submit-btn:hover{
+    background:rgb(203, 222, 236);
+    box-shadow: 10px 10px 10px 2px rgb(0 0 0 / 50%),
+    0px 1px 1px 1px rgb(0 0 0 / 14%),
+     0px 2px 3px 0px rgb(0 0 0 / 12%);
+  }
+
+  /* table  */
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 48%;
+  }
+ 
+   td {
+    padding: 10px;
+
+  }
+  th {
+    text-align: center;
+    padding: 20px;
+  }
+  .productlist-row{
+    cursor: pointer;
+  }
+  

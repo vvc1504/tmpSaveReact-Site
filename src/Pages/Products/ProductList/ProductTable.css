@@ -1,0 +1,18 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 48%;
+    margin-left: 10px;
+  }
+ 
+   td {
+    padding: 10px;
+
+  }
+  th {
+    text-align: center;
+    padding: 20px;
+  }
+  .productlist-row{
+    cursor: pointer;
+  }

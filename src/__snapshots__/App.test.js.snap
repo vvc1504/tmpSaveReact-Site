@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`First snapshort test 1 1`] = `
+<div>
+  <div>
+    <div
+      className="navbar"
+    >
+      <a
+        className="menu-bars"
+        href="/"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          onClick={[Function]}
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+          />
+        </svg>
+      </a>
+    </div>
+    <div
+      className="nav-menu"
+    >
+      <ul
+        className="nav-menu-items"
+        onClick={[Function]}
+      >
+        <li
+          className="navbar-toggle"
+        >
+          <a
+            className="menu-bars"
+            href="/"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 0 0 203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            href="/home"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 14h14v2h-16v-16h2zM4.5 13c-0.828 0-1.5-0.672-1.5-1.5s0.672-1.5 1.5-1.5c0.044 0 0.088 0.002 0.131 0.006l1.612-2.687c-0.154-0.235-0.243-0.517-0.243-0.819 0-0.828 0.672-1.5 1.5-1.5s1.5 0.672 1.5 1.5c0 0.302-0.090 0.583-0.243 0.819l1.612 2.687c0.043-0.004 0.087-0.006 0.131-0.006 0.033 0 0.066 0.001 0.099 0.004l2.662-4.658c-0.165-0.241-0.261-0.532-0.261-0.845 0-0.828 0.672-1.5 1.5-1.5s1.5 0.672 1.5 1.5c0 0.828-0.672 1.5-1.5 1.5-0.033 0-0.066-0.001-0.099-0.004l-2.662 4.658c0.165 0.241 0.261 0.532 0.261 0.845 0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5c0-0.302 0.090-0.583 0.243-0.819l-1.612-2.687c-0.043 0.004-0.087 0.006-0.131 0.006s-0.088-0.002-0.131-0.006l-1.612 2.687c0.154 0.235 0.243 0.517 0.243 0.819 0 0.828-0.672 1.5-1.5 1.5z"
+              />
+            </svg>
+            <span>
+              Home
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm1.334-10H10.5V9h2.834a1.5 1.5 0 0 1 0 3zm0-5H8.5v10h2v-3h2.834a3.5 3.5 0 0 0 0-7z"
+                />
+              </g>
+            </svg>
+            <span>
+              Products
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            href="/sale"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 6V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H2v13c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6h-6zm-6-2h4v2h-4V4zM9 18V9l7.5 4L9 18z"
+              />
+            </svg>
+            <span>
+              Sales
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            href="/purchase"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+              viewBox="0 0 576 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V256H0v176zm192-68c0-6.6 5.4-12 12-12h136c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-40zm-128 0c0-6.6 5.4-12 12-12h72c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM576 80v48H0V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48z"
+              />
+            </svg>
+            <span>
+              Purchase
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            href="/inventory"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M124 80v322c0 7.7-6.3 14-14 14s-14-6.3-14-14V112H80c-17.7 0-32 14.3-32 32v288c0 17.7 14.3 32 32 32h353.1c17 0 30.9-13.8 30.9-30.9V80c0-17.7-14.3-32-32-32l-278 2c-17.7 0-30 12.3-30 30zm66 32h84c7.7 0 14 6.3 14 14s-6.3 14-14 14h-84c-7.7 0-14-6.3-14-14s6.3-14 14-14zm0 160h148c7.7 0 14 6.3 14 14s-6.3 14-14 14H190c-7.7 0-14-6.3-14-14s6.3-14 14-14zm196 108H190c-7.7 0-14-6.3-14-14s6.3-14 14-14h196c7.7 0 14 6.3 14 14s-6.3 14-14 14zm0-160H190c-7.7 0-14-6.3-14-14s6.3-14 14-14h196c7.7 0 14 6.3 14 14s-6.3 14-14 14z"
+              />
+            </svg>
+            <span>
+              Inventory
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            href="/report"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M184 448h48c4.4 0 8-3.6 8-8V72c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v368c0 4.4 3.6 8 8 8zM88 448h48c4.4 0 8-3.6 8-8V296c0-4.4-3.6-8-8-8H88c-4.4 0-8 3.6-8 8v144c0 4.4 3.6 8 8 8zM280.1 448h47.8c4.5 0 8.1-3.6 8.1-8.1V232.1c0-4.5-3.6-8.1-8.1-8.1h-47.8c-4.5 0-8.1 3.6-8.1 8.1v207.8c0 4.5 3.6 8.1 8.1 8.1zM368 136.1v303.8c0 4.5 3.6 8.1 8.1 8.1h47.8c4.5 0 8.1-3.6 8.1-8.1V136.1c0-4.5-3.6-8.1-8.1-8.1h-47.8c-4.5 0-8.1 3.6-8.1 8.1z"
+              />
+            </svg>
+            <span>
+              Reports
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            href="/employee"
+            onClick={[Function]}
+          >
+            <svg
+              enableBackground="new 0 0 48 48"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+              version="1"
+              viewBox="0 0 48 48"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon
+                fill="#FF9800"
+                points="24,37 19,31 19,25 29,25 29,31"
+              />
+              <g
+                fill="#FFA726"
+              >
+                <circle
+                  cx="33"
+                  cy="19"
+                  r="2"
+                />
+                <circle
+                  cx="15"
+                  cy="19"
+                  r="2"
+                />
+              </g>
+              <path
+                d="M33,13c0-7.6-18-5-18,0c0,1.1,0,5.9,0,7c0,5,4,9,9,9s9-4,9-9C33,18.9,33,14.1,33,13z"
+                fill="#FFB74D"
+              />
+              <path
+                d="M24,4c-6.1,0-10,4.9-10,11c0,0.8,0,2.3,0,2.3l2,1.7v-5l12-4l4,4v5l2-1.7c0,0,0-1.5,0-2.3c0-4-1-8-6-9l-1-2 H24z"
+                fill="#424242"
+              />
+              <g
+                fill="#784719"
+              >
+                <circle
+                  cx="28"
+                  cy="19"
+                  r="1"
+                />
+                <circle
+                  cx="20"
+                  cy="19"
+                  r="1"
+                />
+              </g>
+              <polygon
+                fill="#fff"
+                points="24,43 19,31 24,32 29,31"
+              />
+              <polygon
+                fill="#D32F2F"
+                points="23,35 22.3,39.5 24,43.5 25.7,39.5 25,35 26,34 24,32 22,34"
+              />
+              <path
+                d="M29,31L29,31l-5,12l-5-12c0,0-11,2-11,13h32C40,33,29,31,29,31z"
+                fill="#546E7A"
+              />
+            </svg>
+            <span>
+              Employee
+            </span>
+          </a>
+        </li>
+        <li
+          className="nav-text"
+        >
+          <a
+            href="/profile"
+            onClick={[Function]}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 008 15a6.987 6.987 0 005.468-2.63z"
+              />
+              <path
+                clipRule="evenodd"
+                d="M8 9a3 3 0 100-6 3 3 0 000 6z"
+                fillRule="evenodd"
+              />
+              <path
+                clipRule="evenodd"
+                d="M8 1a7 7 0 100 14A7 7 0 008 1zM0 8a8 8 0 1116 0A8 8 0 010 8z"
+                fillRule="evenodd"
+              />
+            </svg>
+            <span>
+              Profile
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="productpage-box"
+  >
+    <a
+      href="/"
+      id="tour-link"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "GrayText",
+          "marginLeft": "800px",
+        }
+      }
+    >
+      HELP Guide
+    </a>
+    <a
+      href="/addproduct"
+      onClick={[Function]}
+    >
+      <button
+        className="addproduct-btn"
+        id="add-product"
+        title="Add Product"
+      >
+        <svg
+          className="symbol"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12,22 L12,2 M2,12 L22,12"
+            fill="none"
+            stroke="#000"
+            strokeWidth="2"
+          />
+        </svg>
+        ADD PRODUCT
+      </button>
+    </a>
+    <div>
+      <div
+        className="tablelist"
+        id="tablelist"
+      >
+        <br />
+        <div>
+          <h2>
+            Product list 
+          </h2>
+          <br />
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  id
+                </th>
+                <th>
+                  Product Name 
+                </th>
+                <th>
+                  Mrp
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr
+      className="MuiDivider-root"
+    />
+    <br />
+    <br />
+  </div>
+</div>
+`;

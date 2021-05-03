@@ -1,0 +1,14 @@
+.productpage-box{
+    background:rgb(216, 209, 195);
+    min-height: 100vh; 
+  }
+  .addproduct-btn{
+    color: rgb(100, 40, 40);
+    /* background:rgb(6, 6, 34); */
+    margin: 10px;
+    border: 2px solid;
+    padding: 14px 40px;
+    cursor: pointer;
+    
+  }
+  
