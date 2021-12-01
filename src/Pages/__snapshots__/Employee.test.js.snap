@@ -9,3 +9,11 @@ exports[`employee snapshort test 1`] = `
   </h1>
 </div>
 `;
+
+exports[`home snapshort test 1`] = `
+<div
+  className="home-page"
+>
+  <h1 />
+</div>
+`;

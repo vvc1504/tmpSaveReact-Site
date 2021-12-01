@@ -40,7 +40,7 @@ function Addproduct() {
     // const [details, dsetDetails] = useState(undefined)
     useEffect(() => {
         localStorage.setItem('productList', JSON.stringify(productList))
-    },[productList]);
+    }, [productList]);
 
     const showproduct = () => {
 
@@ -99,31 +99,24 @@ function Addproduct() {
         setEditingTextName('')
         setEditingTextMrp('')
     }
-
     return (
         <div className='addproduct-form'>
             <Link
                 style={{ marginLeft: '740px' }}
-                onClick={() => setIsTourOpen(true)}><Trans>HELP Guide</Trans></Link>
-
+                onClick={() => setIsTourOpen(true)}><Trans>HELP Guide</Trans>
+            </Link>
             <h1><Trans>Addproduct</Trans></h1>
-            <div className='form' >
+            <div className='form'>
                 <Tour
                     steps={steps}
                     isOpen={isTourOpen}
                     onRequestClose={closeTour}
                 />
-
-                <form
-
-                    action="/"
+                <form action="/"
                     onSubmit={(e) => {
                         console.log(e.target.value)
                         showproduct()
-                    }} >
-
-
-                    <br></br>
+                    }}>
                     <TextField
                         className='prds-field'
                         id="pname"
@@ -138,29 +131,6 @@ function Addproduct() {
                         }}
                         value={addProduct}
                     />
-                    {/* <div >
-                        <div>
-                            <input 
-                            id='prdsname' 
-                            required='mandetory' 
-                            type='text' 
-                            placeholder='ProductName...'    
-                            onChange={(e) => {
-                                console.log(e.target.value)
-                                setAddProduct(e.target.value)
-                            }}
-                            value={addProduct}
-                            />
-                            <fieldset className='ap-fieldset'>
-                                <legend>
-                                    <span className='ap-legend'>
-                                        ProductName**(Required)</span>
-                                </legend>
-                            </fieldset>
-                        </div>
-                    </div> */}
-                    <span></span>
-                    <h1><span></span></h1>
 
                     <TextField
                         className='mrp-field'
@@ -176,29 +146,6 @@ function Addproduct() {
                         }}
                         value={addMrp}
                     />
-                    {/* <div >
-                        <div>
-                          <input 
-                            className='mrp-field'
-                            id="mrp"
-                            name='mrp'
-                            label="Mrp"
-                            required='mandetory'
-                            type="number"
-                            variant="outlined"
-                            onChange={(e) => {
-                                console.log(e.target.value)
-                                setAddMrp(e.target.value)
-                            }}
-                            value={addMrp}
-                            />
-                            <fieldset className='ap-fieldset'>
-                                <legend>
-                                    <span className='ap-legend'> Mrp*(Required)</span>
-                                </legend>
-                            </fieldset>
-                        </div>
-                    </div> */}
 
                     <button className='ap-submit-btn'
                         type='submit'
@@ -207,102 +154,217 @@ function Addproduct() {
                         required
                         onClick={handleToggle}
                     ><Trans>Submit</Trans></button>
-                    <Backdrop className={classes.backdrop} open={open} onClick={handleClose}>
-                        <CircularProgress color="inherit" />
-                    </Backdrop>
                 </form>
             </div>
-                   
-            {productList.map((x) => <div key={x.id}>
+            {/* {productList.map((x)=><div key={x.id}>
+                        {x.label}
+            </div>)} */}
 
-
-{editing === x.id ? (<div>
-    {/* <input
-        className='input-addproduct'
-        type='text'
-        onChange={(e) =>{ 
-            console.log(e.target.value)
-            setEditingTextName(e.target.value)}}
-        value={editingTextName}
-    /> */}
-
-                    <TextField
-                        className='prds-field'
-                        id="pname"
-                        name='pname'
-                        label={<Trans>ProductName</Trans>}
-                        PlaceHolder={x}
-                        required='mandetory'
-                        type="text"
-                        variant="outlined"
-                        onChange={(e) => {
-                            setEditingTextName(e.target.value)
-                        }}
-                        value={editingTextName}
-                    />
-    {/* <input
-        className='input-addproduct'
-        type='number'
-        onChange={(e) =>{ 
-            console.log(e.target.value)
-            setEditingTextMrp(e.target.value)}}
-        value={editingTextMrp}
-    /> */}
-
-                    <TextField
-                        className='mrp-field'
-                        id="mrp"
-                        name='mrp'
-                        label={<Trans>mrp</Trans>}
-                        required='mandetory'
-                        type="number"
-                        variant="outlined"
-                        onChange={(e) => {
-                            console.log(e.target.value)
-                            setEditingTextMrp(e.target.value)
-                        }}
-                        value={editingTextMrp}
-                    />
-    </div>
+        </div >
     )
-    :
-    (<li>{x.Name}--{x.mrp}</li>)}
+    //     return (
+    //         <div className='addproduct-form'>
+    //             <Link
+    //                 style={{ marginLeft: '740px' }}
+    //                 onClick={() => setIsTourOpen(true)}><Trans>HELP Guide</Trans></Link>
 
-{/* <input
-    type='checkbox'
-    onChange={() => toggleComplete(x.id)}
-    checked={x.completed} />
-<button
-    className='ap-submit-btn'
-    onClick={() => deleteAdding(x.id)}
->Delete </button> */}
+    //             <h1><Trans>Addproduct</Trans></h1>
+    //             <div className='form' >
+    //                 <Tour
+    //                     steps={steps}
+    //                     isOpen={isTourOpen}
+    //                     onRequestClose={closeTour}
+    //                 />
 
-{editing === x.id ? (
-    <div>
-    <button
-        className='ap-submit-btn'
-        onClick={() => editadding(x.id)}
-        
-    >Save Edit</button>
-    <button
-    onClick={()=>editadding(x.text)}
-    >cancel</button>
-   </div> 
-)
-    :
-    (
-        <button
-            className='ap-submit-btn'
-            onClick={() => setEditing(x.id)}
-        >Edit </button>
-    )}
+    //                 <form
+
+    //                     action="/"
+    //                     onSubmit={(e) => {
+    //                         console.log(e.target.value)
+    //                         showproduct()
+    //                     }} >
 
 
+    //                     <br></br>
+    //                     <TextField
+    //                         className='prds-field'
+    //                         id="pname"
+    //                         name='pname'
+    //                         label={<Trans>ProductName</Trans>}
+    //                         required='mandetory'
+    //                         type="text"
+    //                         variant="outlined"
+    //                         onChange={(e) => {
+    //                             console.log(e.target.value)
+    //                             setAddProduct(e.target.value)
+    //                         }}
+    //                         value={addProduct}
+    //                     />
+    //                     {/* <div >
+    //                         <div>
+    //                             <input 
+    //                             id='prdsname' 
+    //                             required='mandetory' 
+    //                             type='text' 
+    //                             placeholder='ProductName...'    
+    //                             onChange={(e) => {
+    //                                 console.log(e.target.value)
+    //                                 setAddProduct(e.target.value)
+    //                             }}
+    //                             value={addProduct}
+    //                             />
+    //                             <fieldset className='ap-fieldset'>
+    //                                 <legend>
+    //                                     <span className='ap-legend'>
+    //                                         ProductName**(Required)</span>
+    //                                 </legend>
+    //                             </fieldset>
+    //                         </div>
+    //                     </div> */}
+    //                     <span></span>
+    //                     <h1><span></span></h1>
 
-</div>)}
+    //                     <TextField
+    //                         className='mrp-field'
+    //                         id="mrp"
+    //                         name='mrp'
+    //                         label={<Trans>mrp</Trans>}
+    //                         required='mandetory'
+    //                         type="number"
+    //                         variant="outlined"
+    //                         onChange={(e) => {
+    //                             console.log(e.target.value)
+    //                             setAddMrp(e.target.value)
+    //                         }}
+    //                         value={addMrp}
+    //                     />
+    //                     {/* <div >
+    //                         <div>
+    //                           <input 
+    //                             className='mrp-field'
+    //                             id="mrp"
+    //                             name='mrp'
+    //                             label="Mrp"
+    //                             required='mandetory'
+    //                             type="number"
+    //                             variant="outlined"
+    //                             onChange={(e) => {
+    //                                 console.log(e.target.value)
+    //                                 setAddMrp(e.target.value)
+    //                             }}
+    //                             value={addMrp}
+    //                             />
+    //                             <fieldset className='ap-fieldset'>
+    //                                 <legend>
+    //                                     <span className='ap-legend'> Mrp*(Required)</span>
+    //                                 </legend>
+    //                             </fieldset>
+    //                         </div>
+    //                     </div> */}
 
-        </div>
-    )
+    //                     <button className='ap-submit-btn'
+    //                         type='submit'
+    //                         variant="outlined"
+    //                         color="primary"
+    //                         required
+    //                         onClick={handleToggle}
+    //                     ><Trans>Submit</Trans></button>
+    //                     <Backdrop className={classes.backdrop} open={open} onClick={handleClose}>
+    //                         <CircularProgress color="inherit" />
+    //                     </Backdrop>
+    //                 </form>
+    //             </div>
+
+    //             {productList.map((x) => <div key={x.id}>
+
+
+    // {editing === x.id ? (<div>
+    //     {/* <input
+    //         className='input-addproduct'
+    //         type='text'
+    //         onChange={(e) =>{ 
+    //             console.log(e.target.value)
+    //             setEditingTextName(e.target.value)}}
+    //         value={editingTextName}
+    //     /> */}
+
+    //                     <TextField
+    //                         className='prds-field'
+    //                         id="pname"
+    //                         name='pname'
+    //                         label={<Trans>ProductName</Trans>}
+    //                         PlaceHolder={x}
+    //                         required='mandetory'
+    //                         type="text"
+    //                         variant="outlined"
+    //                         onChange={(e) => {
+    //                             setEditingTextName(e.target.value)
+    //                         }}
+    //                         value={editingTextName}
+    //                     />
+    //     {/* <input
+    //         className='input-addproduct'
+    //         type='number'
+    //         onChange={(e) =>{ 
+    //             console.log(e.target.value)
+    //             setEditingTextMrp(e.target.value)}}
+    //         value={editingTextMrp}
+    //     /> */}
+
+    //                     <TextField
+    //                         className='mrp-field'
+    //                         id="mrp"
+    //                         name='mrp'
+    //                         label={<Trans>mrp</Trans>}
+    //                         required='mandetory'
+    //                         type="number"
+    //                         variant="outlined"
+    //                         onChange={(e) => {
+    //                             console.log(e.target.value)
+    //                             setEditingTextMrp(e.target.value)
+    //                         }}
+    //                         value={editingTextMrp}
+    //                     />
+    //     </div>
+    //     )
+    //     :
+    //     (<li>{x.Name}--{x.mrp}</li>)}
+
+    // {/* <input
+    //     type='checkbox'
+    //     onChange={() => toggleComplete(x.id)}
+    //     checked={x.completed} />
+    // <button
+    //     className='ap-submit-btn'
+    //     onClick={() => deleteAdding(x.id)}
+    // >Delete </button> */}
+
+    // {editing === x.id ? (
+    //     <div>
+    //     <button
+    //         className='ap-submit-btn'
+    //         onClick={() => editadding(x.id)}
+
+    //     >Save Edit</button>
+    //     <button
+    //     onClick={()=>editadding(x.text)}
+    //     >cancel</button>
+    //    </div> 
+    // )
+    //     :
+    //     (
+    //         <button
+    //             className='ap-submit-btn'
+    //             onClick={() => setEditing(x.id)}
+    //         >Edit </button>
+    //     )}
+
+
+
+    // </div>)}
+
+    //         </div>
+    //     )
 }
 
 export default Addproduct;
